@@ -27,3 +27,5 @@ $        Matches the end of the line
 (        Indicates where string extraction is to start
 
 )        Indicates where string extraction is to end
+
+#https://www.coursera.org/learn/python-network-data/supplement/2WnqH/python-regular-expression-quick-guide
