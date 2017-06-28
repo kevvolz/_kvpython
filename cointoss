@@ -1,0 +1,46 @@
+#Flip a coin
+
+import random
+import time
+import sys
+
+print('Flipping a coin\n')
+slowdots = '...\n'
+for dot in slowdots:
+	sys.stdout.write(dot)
+	sys.stdout.flush()
+	time.sleep(0.4)
+x = random.randint(1, 2)
+if x == 1:
+	print(r"""
+         _.-'~~`~~'-._
+      .'`  B   E   R  `'.
+     / I               T \
+   /`       .-'~"-.       `\
+  ; L      / `-    \      Y ;
+ ;        />  `.  -.|        ;
+ |       /_     '-.__)       |
+ |        |-  _.' \ |        |
+ ;        `~~;     \\        ;
+  ;  INGODWE /      \\)    ;
+   \  TRUST '.___.-'`"     /
+    `\                   /`
+      '._   1 9 9 7   _.'
+         `'-..,,,..-'`""")
+else:
+	print(r"""
+         _.-'~~`~~'-._
+      .'`             `'.
+     /    E PLURIBUS     \
+   /`   _   UNUM _ _      `\
+  ;    | |      (_) |       ;
+ ;     | |_ __ _ _| |___     ;
+ |     | __/ _` | | / __|    |
+ |     | || (_| | | \__ \    |
+ ;      \__\__,_|_|_|___/    ;
+  ;                         ;
+   \                       /
+    `\        USA        /`
+      '._             _.'
+         `'-..,,,..-'`""")
+time.sleep(1.5)
